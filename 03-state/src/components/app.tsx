@@ -1,11 +1,11 @@
-import PostCard from './post-card';
+import Carousel from './carousel';
+import Counter from './counter';
 
 export default function App() {
   return (
-    <div>
-      <h1>test</h1>
-      <PostCard username="John Doe" isOnline />
-      <PostCard username="Jane Doe" className="border border-black" />
+    <div className="p-4">
+      <Counter />
+      <Carousel />
     </div>
   );
 }
