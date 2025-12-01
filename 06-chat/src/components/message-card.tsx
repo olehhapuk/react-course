@@ -30,7 +30,7 @@ export default function MessageCard({ message, onDelete }: MessageCardProps) {
         </span>
       </div>
 
-      <p>{message.text}</p>
+      <p className="break-all">{message.text}</p>
 
       <div>
         <Button
